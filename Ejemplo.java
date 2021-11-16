@@ -21,6 +21,12 @@ public class Ejemplo {
 	a = a + 1;
     }
 
+    public static void sucesor(int[] a) {
+	int d = 0;
+	for(int i = 0; i < a.length; i++){
+	    d = a[i] + 1; 
+	}
+    }
     public static void sucesor1(int c) { //Metodo que da el sucesor de "c"
 	c = c + 1;
 	System.out.println("El sucesor de c es: " + c); //Por medio del s.o.p. el valor se modifica y al salir del metodo tendra un nuevo valor
