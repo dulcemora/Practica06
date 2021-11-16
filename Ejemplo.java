@@ -21,10 +21,10 @@ public class Ejemplo {
 	a = a + 1;
     }
 
-    public static void sucesor(int[] a) {
+    public static void sucesor(int[] a) { //Metodo que da los sucesores de un arreglo
 	int d = 0;
 	for(int i = 0; i < a.length; i++){
-	    d = a[i] + 1; 
+	    d = a[i] + 1; //Da todos los sucesores del arreglo
 	}
     }
     public static void sucesor1(int c) { //Metodo que da el sucesor de "c"
