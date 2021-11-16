@@ -4,7 +4,6 @@ public class Ejemplo {
     **/
     public static void main(String[] args){
 	int a = 2; //Es una variable de tipo int
-	int c = 2; //Es otra variable de tipo int
 	int[] b = new int [20]; //Un arreglo que tiene 20 enteros
 	for(int i = 0; i < b.length; i++){
 	    b[i] = i;
@@ -29,7 +28,7 @@ public class Ejemplo {
 	    d = a[i] + 1; //Da todos los sucesores del arreglo
 	}
     }
-    public static int sucesor1(int a) { //Metodo que da el sucesor de "c"
+    public static int sucesor1(int a) { //Metodo que da el sucesor de "a"
 	a = a + 1;
 	return a;
     }
