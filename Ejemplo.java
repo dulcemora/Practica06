@@ -18,17 +18,29 @@ public class Ejemplo {
 
     }
 
-    public static void sucesor(int a) { //Metodo que nos da el sucesor de "a"
+    /**
+     * Metodo que regresa el sucesor de un numero
+     * @param a El numero
+     **/
+    public static void sucesor(int a) {
 	a = a + 1;
    }
 
-    public static void sucesor(int[] a) { //Metodo que da los sucesores de un arreglo
+    /**
+     * Metodo que da los sucesores de un arreglo
+     * @param a El numero
+     **/
+    public static void sucesor(int[] a) {
 	int d = 0;
 	for(int i = 0; i < a.length; i++){
 	    d = a[i] + 1; //Da todos los sucesores del arreglo
 	}
     }
-    public static int sucesor1(int a) { //Metodo que da el sucesor de "a"
+    /**
+     * Metodo que regresa el sucesor de un numero
+     * @param a El numero
+     **/
+    public static int sucesor1(int a) {
 	a = a + 1;
 	return a;
     }
