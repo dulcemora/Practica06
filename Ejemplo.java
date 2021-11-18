@@ -39,6 +39,7 @@ public class Ejemplo {
     /**
      * Metodo que regresa el sucesor de un numero
      * @param a El numero
+     * @return El sucesor del numero
      **/
     public static int sucesor1(int a) {
 	a = a + 1;
